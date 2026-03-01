@@ -5,7 +5,7 @@ import os
 
 # ---------- 配置区域 ----------
 # 飞书 Webhook 地址（从环境变量获取）
-FEISHU_WEBHOOK = os.getenv("https://open.feishu.cn/open-apis/bot/v2/hook/aaad7d00-5c1d-40d5-9869-4aa662d52ce3")
+FEISHU_WEBHOOK = os.getenv("FEISHU_WEBHOOK")
 
 # RSS 源列表（您以后可以自己增删）
 RSS_SOURCES = [
